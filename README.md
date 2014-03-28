@@ -51,7 +51,7 @@ Below is a list of included categories and what they provide. UIView, UINib, and
 
 *Problem:* Your app only ever uses the default notification center `[NSNotificationCenter defaultCenter]` and you are so very tired of always having to reference it. You also tire of having to manually package `NSNotification` objects whenever you want to send data.
 
-*Solution:* Just use `+postNotificationWithName:`, `postNotificationWithName:object:`, and `postNotificationWithName:object:userInfo:`, which will automatically package an `NSNotification` for you and send it out to the default notification center.
+*Solution:* Just use `+postNotificationWithName:`, `+postNotificationWithName:object:`, and `+postNotificationWithName:object:userInfo:`, which will automatically package an `NSNotification` for you and send it out to the default notification center.
 
 ### NSString+DERelativePaths
 
