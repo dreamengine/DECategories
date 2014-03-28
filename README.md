@@ -9,7 +9,7 @@
 
 ## How It Works
 
-Below is a list of included categories and what they provide.
+Below is a list of included categories and what they provide. UIView, UINib, and UIViewController instantiation have particularly useful conveniences.
 
 ### NSData+DEImageMimeType
 

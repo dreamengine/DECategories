@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIViewController+DEConveniences' do |cs|
-    cs.source_files = 'src/.{h,m}'
+    cs.source_files = 'src/UIViewController+DEConveniences.{h,m}'
   end
 
 end
